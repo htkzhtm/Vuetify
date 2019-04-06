@@ -5,16 +5,16 @@
     <v-toolbar-title>Title</v-toolbar-title>
     <v-spacer></v-spacer>
     <v-toolbar-items class="hidden-sm-and-down">
-      <v-btn flat @click="show">Introduction</v-btn>
-      <v-btn flat>Author Details</v-btn>
+      <v-btn>Introduction</v-btn>
+      <router-link to="author"><v-btn flat>Author Details</v-btn></router-link>
       <v-btn flat>Contacts</v-btn>
     </v-toolbar-items>
   </v-toolbar>
 
     <v-content>
-      <HelloWorld/>
-      <router-link to="author">author</router-link>
+      <router-view></router-view>
     </v-content>
+    
   </v-app>
 </template>
 
