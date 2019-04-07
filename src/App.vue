@@ -1,11 +1,37 @@
 <template>
   <v-app>
-  <v-toolbar>
-    <v-toolbar-side-icon></v-toolbar-side-icon>
+  <v-toolbar
+      fixed
+      app
+      clipped-right
+  >
+    <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>
+    <v-navigation-drawer
+      fixed
+      v-model="drawer"
+      app
+    >
+      <v-list dense>
+        <v-list-tile @click.stop="left = !left">
+          <v-list-tile-action>
+            <v-icon>exit_to_app</v-icon>
+          </v-list-tile-action>
+          <v-list-tile-content>
+            <v-list-tile-title>Open Temporary Drawer</v-list-tile-title>
+          </v-list-tile-content>
+        </v-list-tile>
+      </v-list>
+    </v-navigation-drawer>
+    <v-navigation-drawer
+      temporary
+      v-model="left"
+      fixed
+    ></v-navigation-drawer>
+
     <v-toolbar-title>Title</v-toolbar-title>
     <v-spacer></v-spacer>
     <v-toolbar-items class="hidden-sm-and-down">
-      <v-btn to="/introduction">Introduction</v-btn>
+      <v-btn flat to="/introduction">Introduction</v-btn>
       <v-btn flat to="/author">Author Details</v-btn>
       <v-btn flat to="/contacts">Contacts</v-btn>
     </v-toolbar-items>
@@ -28,8 +54,14 @@ export default {
   },
   data () {
     return {
-      //
-    }
+      drawer: true,
+      drawerRight: true,
+      right: null,
+      left: null
+    };
+  },
+  props: {
+    source: String
   }
 }
 </script>
