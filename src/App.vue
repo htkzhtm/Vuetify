@@ -5,9 +5,9 @@
     <v-toolbar-title>Title</v-toolbar-title>
     <v-spacer></v-spacer>
     <v-toolbar-items class="hidden-sm-and-down">
-      <v-btn>Introduction</v-btn>
-      <router-link to="author"><v-btn flat>Author Details</v-btn></router-link>
-      <v-btn flat>Contacts</v-btn>
+      <v-btn to="/introduction">Introduction</v-btn>
+      <v-btn flat to="/author">Author Details</v-btn>
+      <v-btn flat to="/contacts">Contacts</v-btn>
     </v-toolbar-items>
   </v-toolbar>
 
