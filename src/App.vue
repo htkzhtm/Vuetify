@@ -55,8 +55,6 @@ export default {
   data () {
     return {
       drawer: true,
-      drawerRight: true,
-      right: null,
       left: null
     };
   },
