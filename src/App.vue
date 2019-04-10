@@ -11,7 +11,7 @@
     <v-toolbar-items class="hidden-sm-and-down">
       <v-btn flat to="/introduction">Introduction</v-btn>
       <v-btn flat to="/author">Author Details</v-btn>
-      <v-btn flat to="/contacts">Contacts</v-btn>
+      <v-btn flat to="/twittersearch">Twitter Search</v-btn>
     </v-toolbar-items>
   </v-toolbar>
     <v-navigation-drawer
