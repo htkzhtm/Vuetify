@@ -3,7 +3,8 @@
     <Top />
     <Introduction />
     <Character />
-    <ComicCarousel />
+
+    <AuthorDetail />
     <Footer />
   </div>
 </template>
@@ -15,6 +16,7 @@ import Introduction from '@/components/Introduction.vue';
 import Character from '@/components/Character.vue';
 import ComicCarousel from '@/components/ComicCarousel.vue';
 import Footer from '@/components/Footer.vue';
+import AuthorDetail from '@/components/AuthorDetail.vue';
 
 export default Vue.extend({
   name: 'home',
@@ -23,6 +25,7 @@ export default Vue.extend({
     Introduction,
     Character,
     ComicCarousel,
+    AuthorDetail,
     Footer,
   },
 });

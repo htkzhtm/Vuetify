@@ -13,7 +13,7 @@
       -->
       <v-btn flat @click="$vuetify.goTo('#introduction', { offset: 0 })">Introduction</v-btn>
       <v-btn flat @click="$vuetify.goTo('#character', { offset: 0 })">character</v-btn>
-      <v-btn flat to="/author">Author Details</v-btn>
+      <v-btn flat @click="$vuetify.goTo('#author', { offset: 0 })">author</v-btn>
     </v-toolbar-items>
   </v-toolbar>
     <v-content>
