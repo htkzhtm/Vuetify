@@ -115,5 +115,13 @@ export default Vue.extend({
   margin-top: 20px;
 }
 
+.img-small{
+  max-width: 500px;
+}
+
+.img-large{
+  max-width: 500px;
+}
+
 </style>
 
