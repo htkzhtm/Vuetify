@@ -39,13 +39,13 @@ export default Vue.extend({
   font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   display: block;
   font-weight: 200;
-  font-size: 10vh;
+  font-size: 12vh;
   color: #35495e;
   letter-spacing: 3px;
 }
 .top h2{
   font-weight: 300;
-  font-size: 42px;
+  font-size: 48px;
   color: #526488;
   word-spacing: 5px;
   padding-bottom: 15px;
