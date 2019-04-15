@@ -1,16 +1,11 @@
 <template>
-  <v-container>
-    <v-layout
-      text-xs-center
-      wrap
-    >
-      <div class="top">
-        <div>
-          <h1 class="kawanime">Detective Conan</h1>
-          <h2 class="subtitle">The Community of Conan fan</h2>
-        </div>
+  <v-container class="pa-0 fluid">
+    <div class="top">
+      <div>
+        <h1 class="kawanime">Detective Conan</h1>
+        <h2 class="subtitle">The Community of Conan fan</h2>
       </div>
-    </v-layout>
+    </div>
   </v-container>
 </template>
 
