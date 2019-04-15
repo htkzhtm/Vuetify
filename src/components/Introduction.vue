@@ -73,7 +73,7 @@ export default Vue.extend({
 #introduction h1{
   text-align: center;
   letter-spacing: 2px;
-  font-weight: 200;
+  font-weight: 400;
   font-size: 40px;
   color: #526488;
   word-spacing: 3px;
@@ -87,7 +87,7 @@ export default Vue.extend({
 }
 
 .sub-title {
-  font-weight: 200;
+  font-weight: 350;
   font-size: 26px;
   color: #526488;
   padding-bottom: 5px;
@@ -96,8 +96,8 @@ export default Vue.extend({
 
 .description {
   max-width: 90%;
-  font-weight: 100;
-  font-size: 17px;
+  font-weight: 300;
+  font-size: 18px;
   color: #526488;
   margin: 20px auto auto;
   line-height: 28px;

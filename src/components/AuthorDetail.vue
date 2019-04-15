@@ -1,6 +1,6 @@
 <template>
 <section id="author">
-  <h1 class="title-head">Contribution</h1>
+  <h1 class="title-head">Contribution for fansite</h1>
   <v-container>
     <v-layout
       text-xs-center
@@ -52,7 +52,7 @@ export default Vue.extend({
 #author h1 {
   text-align: center;
   letter-spacing: 2px;
-  font-weight: 200;
+  font-weight: 400;
   font-size: 40px;
   color: #526488;
   word-spacing: 3px;

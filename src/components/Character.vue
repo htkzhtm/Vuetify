@@ -100,7 +100,7 @@ export default Vue.extend({
 <style scoped>
   #character h1 {
     text-align: center;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 2px;
     font-size: 40px;
     color: #526488;
@@ -115,7 +115,7 @@ export default Vue.extend({
 
   .container h5{
     font-size: 20px;
-    font-weight: 200;
+    font-weight: 300;
     line-height: 35px;
     color: #526488;
     word-spacing: 2px;
@@ -128,7 +128,7 @@ export default Vue.extend({
 
 .sub-title {
   font-weight: 350;
-  font-size: 26px;
+  font-size: 30px;
   color: #526488;
   padding-bottom: 5px;
   word-spacing: 3px;
@@ -137,7 +137,7 @@ export default Vue.extend({
 
 .description {
   max-width: 90%;
-  font-weight: 200;
+  font-weight: 300;
   font-size: 18px;
   color: #526488;
   margin: 20px auto auto;
